@@ -1,0 +1,65 @@
+2020-09-25 00:01:56,768 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Starting SpringDataJpaAppApplication on DESKTOP-B8FF4R1 with PID 39268 (F:\Corporate Training\KLS\Spring 5\Spring Data\spring-data-jpa-app\target\classes started by Admin in F:\Corporate Training\KLS\Spring 5\Spring Data\spring-data-jpa-app)
+2020-09-25 00:01:56,780 DEBUG com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-25 00:01:56,781 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-25 00:01:56,923 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-25 00:01:56,924 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-25 00:01:57,762 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-25 00:01:57,822 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 51ms. Found 1 JPA repository interfaces.
+2020-09-25 00:01:59,536 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-09-25 00:01:59,546 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-25 00:01:59,546 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-09-25 00:01:59,546 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-25 00:01:59,657 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-25 00:01:59,658 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2732 ms
+2020-09-25 00:02:00,193 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-25 00:02:00,290 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-25 00:02:00,560 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-25 00:02:00,709 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-25 00:02:00,975 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-25 00:02:01,021 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-25 00:02:02,134 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-25 00:02:02,143 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 00:02:02,158 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-25 00:02:03,497 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-25 00:02:03,745 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 00:02:04,360 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-25 00:02:04,395 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-25 00:02:04,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-25 00:02:04,461 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Started SpringDataJpaAppApplication in 8.096 seconds (JVM running for 8.762)
+2020-09-25 00:02:18,895 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 00:02:18,896 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-25 00:02:18,910 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 14 ms
+2020-09-25 00:02:18,976 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-1] Enter: com.sapient.training.service.EmployeeServiceImpl.getAllEmployees() with argument[s] = []
+2020-09-25 00:02:19,069 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-1] Exit: com.sapient.training.service.EmployeeServiceImpl.getAllEmployees() with result = [Employee(id=6, name=Vinay Kumar, job=Developer, hiredate=2015-10-15, salary=250000.0), Employee(id=7, name=Rohit, job=Developer, hiredate=2015-10-15, salary=550000.0)]
+2020-09-25 10:28:48,106 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Starting SpringDataJpaAppApplication on DESKTOP-B8FF4R1 with PID 47140 (F:\Corporate Training\KLS\Spring 5\Spring Data\spring-data-jpa-app\target\classes started by Admin in F:\Corporate Training\KLS\Spring 5\Spring Data\spring-data-jpa-app)
+2020-09-25 10:28:48,126 DEBUG com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-25 10:28:48,127 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-25 10:28:48,232 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-25 10:28:48,232 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-25 10:28:49,670 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-25 10:28:49,745 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2020-09-25 10:28:51,854 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-09-25 10:28:51,870 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-25 10:28:51,870 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-09-25 10:28:51,870 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-25 10:28:52,021 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-25 10:28:52,021 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3789 ms
+2020-09-25 10:28:52,473 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-25 10:28:52,552 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-25 10:28:52,817 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-25 10:28:52,967 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-25 10:28:53,193 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-25 10:28:53,242 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-25 10:28:54,460 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-25 10:28:54,467 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 10:28:54,488 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-25 10:28:55,302 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-25 10:28:55,515 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-25 10:28:56,063 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-25 10:28:56,104 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path '/springfox'
+2020-09-25 10:28:56,601 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Started SpringDataJpaAppApplication in 9.095 seconds (JVM running for 10.219)
+2020-09-25 10:29:48,688 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springfox] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 10:29:48,689 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-25 10:29:48,703 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 14 ms
+2020-09-25 10:30:12,677 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-7] Enter: com.sapient.training.service.EmployeeServiceImpl.getAllEmployees() with argument[s] = []
+2020-09-25 10:30:12,763 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-7] Exit: com.sapient.training.service.EmployeeServiceImpl.getAllEmployees() with result = [Employee(id=6, name=Vinay Kumar, job=Developer, hiredate=2015-10-15, salary=250000.0), Employee(id=7, name=Rohit, job=Developer, hiredate=2015-10-15, salary=550000.0)]
